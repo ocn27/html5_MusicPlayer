@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Ocn27音乐播放器</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/OcnPlayer.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" />
+  </head>
+  <body>
+  <div class="OcnPlayer">
+    <div class="left_btn"></div>
+    <div class="mid_btn">
+    <img class="avatar" src="avatar/avatar.jpg" /> 
+    <img class="play" src="image/play.png" /></div>
+    <div class="right_btn"></div>
+    <div class="current_adjust_Time"></div>
+    <div class="music_info"></div>
+    <div class="total_rest_Time"></div>
+    <div class="progress_bar">
+      <div class="progress"></div>
+      <div class="buffer"></div>
+    </div>
+    <div class="music_album">
+      <ul class="music_album_ul content"></ul>
+    </div>
+  </div>
+  <audio id="music" controls="controls">然而您的破浏览器并不能听歌</audio>
+  <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://libs.baidu.com/jqueryui/1.8.22/jquery-ui.min.js"></script>
+  <script src="js/jquery.mousewheel.min.js"></script>
+  <script src="js/jquery.mCustomScrollbar.js"></script>
+  <script src="js/OcnPlayer.js"></script> 
+  <script src="js/MusicList.js"></script></body>
+</html>
